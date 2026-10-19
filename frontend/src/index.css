@@ -1,0 +1,126 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #101827;
+  color: #dce5f3;
+}
+
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+  background-color: #1d2939;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #91baff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #b5ccff;
+}
+
+/* Headings */
+h1 {
+  color: #dce5f3;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #c4d4ec;
+}
+
+/* Product Cards */
+#root > div > div {
+  background-color: #1d2939;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+p {
+  color: #a6b4c7;
+  line-height: 1.6;
+}
+
+/* Forms */
+form {
+  background-color: #1d2939;
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #c4d4ec;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #40516a;
+  border-radius: 6px;
+  background-color: #101827;
+  color: #dce5f3;
+  font-size: 15px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #648cf0;
+}
+
+/* Buttons */
+button {
+  background-color: #305bd2;
+  color: #e0e7f5;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #426fe5;
+}
+
+/* Links */
+a {
+  color: #91baff;
+}
+
+#root > div > div a {
+  display: inline-block;
+  margin: 10px;
+}
